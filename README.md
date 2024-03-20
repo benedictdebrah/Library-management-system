@@ -17,6 +17,7 @@ The project structure is organized as follows:
 library_management_system/
 ├── app/
 │   ├── __init__.py
+│   ├── main.py
 │   ├── api/
 │   │   ├── __init__.py
 │   │   ├── book.py
@@ -28,17 +29,28 @@ library_management_system/
 │   │   ├── book.py
 │   │   ├── user.py
 │   │   └── notification.py
-│   ├── database.py
-│   └── main.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── book.py
+│   │   ├── user.py
+│   │   └── notification.py
+│   └── database.py
+├── frontend/
+│   ├── index.html
+│   ├── styles/
+│   │   └── main.css
+│   ├── scripts/
+│   │   └── main.js
 ├── tests/
 │   ├── __init__.py
+│   ├── conftest.py
 │   ├── test_book.py
 │   ├── test_user.py
 │   ├── test_auth.py
-│   ├── test_notifications.py
-│   └── conftest.py
+│   └── test_notifications.py
 ├── requirements.txt
 └── README.md
+
 ```
 
 ### Backend Development (By Me)
